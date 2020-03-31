@@ -6,19 +6,19 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
     <body> 
-        <h1>Project 5: Forms</h1>
+        <h1>Project 6: Forms</h1>
         
         <p>In this form, I  will collect name, age, and a short biography.
         
         <form action="https://formspree.io/mwkneovj" method="POST">
             
-            <div id="name">
+            <div id="namebox">
             <label for="name">First and Last Name</label>
-            <input type="text" name="name">
+            <input type="text" name="name" id="name">
             </div>
-        <div id="age">
+        <div id="agebox">
             <label for="age">Age Group</label>
-    <select class="form-control" name="age">
+    <select class="form-control" name="age" id="age">
       <option>Under 18</option>
       <option>18-24</option>
       <option>25-35</option>
@@ -26,9 +26,9 @@
       <option>Over 50</option>
     </select>
             </div>
-            <div id="about">
+            <div id="aboutbox">
             <label for="about">A little about yourself:</label>
-    <textarea class="form-control" name="about" rows="3"></textarea>
+    <textarea class="form-control" name="about" id="about" rows="3"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
             
